@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex: 1;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 0%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex: 1;
+  height: 100vh;
+}
+
+.tryIt {
+  background-color: #5e55a3;
+  height: 36px;
+  margin: 0;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px;
+  padding-top: 14px;
+  margin-top: 25%;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  margin-right: 15%;
+}
+
+.cardForm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  gap: 20px;
+  height: 24em;
+  align-items: center;
+  margin-right: 15%;
+}
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3d3b48;
+  opacity: 0.7;
+}
+
+.formInput {
+  display: flex;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.formInput:focus {
+  outline: none;
+  border: 1px solid #5e55a3;
+  border-radius: 5px;
+}
+.error {
+  margin-right: 5px;
+}
+button {
+  color: white;
+  cursor: pointer;
+  background-color: #38cc8b;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
+
+.terms {
+  color: #bab7d4;
+  font-size: 10px;
+  text-align: center;
+}
+
+.services {
+  color: #ff7978;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 55px;
+  font-size: 3em;
+}
+
+.app {
+  display: flex;
+  background-image: url(../public/images/bg-intro-desktop.png);
+  height: 100vh;
+  background-color: #ff7978;
+  flex-flow: row wrap;
+}
